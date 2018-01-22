@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".answer_h1"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        app:srcCompat="@drawable/facepalm"
+        android:id="@+id/imageView"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:text="What are you waiting for? \n If you love someone tell them!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="Lets help you with that.. \n \n click the phone!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:baselineAligned="false"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/phone"
+            android:id="@+id/share"
+            android:layout_marginLeft="100dp"
+            android:scaleType="centerInside"
+            android:background="@android:color/background_light" />
+
+    </LinearLayout>
+
+</LinearLayout>

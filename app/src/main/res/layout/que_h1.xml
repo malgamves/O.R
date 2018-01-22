@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question_h1"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/flyingheart"
+        android:id="@+id/imageView3"
+        android:scaleType="centerInside"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:text="Do you love them?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:background="@android:color/background_light"
+        android:layout_margin="35dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ok"
+            android:id="@+id/yes"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@android:color/background_light"
+            android:padding="20dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/no"
+            android:id="@+id/no"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:background="@android:color/background_light"
+            android:padding="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

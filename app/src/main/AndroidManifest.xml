@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saved.crimsosite.or">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logof"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".about"/>
+        <activity android:name=".question_h1"/>
+        <activity android:name=".coming_soon"/>
+        <activity android:name=".question_h2"/>
+        <activity android:name=".question_h3"/>
+        <activity android:name=".answer_h1"/>
+        <activity android:name=".answer_h2"/>
+        <activity android:name=".answer_h3"/>
+        <activity android:name=".answer_sm1"/>
+        <activity android:name=".answer_sm2"/>
+        <activity android:name=".answer_h4"/>
+        <activity android:name=".question_sm1"/>
+        <activity android:name=".question_sm2"/>
+        <activity android:name=".sm_webview"/>
+
+
+
+
+
+    </application>
+
+</manifest>

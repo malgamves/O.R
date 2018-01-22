@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coming_soon">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="269dp"
+            android:layout_height="237dp"
+            app:srcCompat="@drawable/working"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="55dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:text="We're constantly striving to create great content for you! \n  We're working on it so please be patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            tools:textColor="@color/colorPrimary"
+            android:layout_weight="0.48"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:typeface="sans"
+            android:layout_margin="20dp" />
+    </LinearLayout>
+</RelativeLayout>
