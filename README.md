@@ -14,7 +14,9 @@ My Nature App, small design. Few activities with choices
 - Use Android Studio 3.0 to avoid compatability problems
 
 # License
+MIT License
 
+Copyright (c) 2018 Daniel Phi
 
 
 **N.B:** Still being developed. 
