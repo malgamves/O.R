@@ -3,7 +3,7 @@ My Nature App, small design. Few activities with choices
 
 
 # Installastion 
-- Run in Android Studio #.0 and build apk.
+- Run in Android Studio 3.0 and build apk.
 
 
 # Use
